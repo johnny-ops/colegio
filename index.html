@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cdml.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Cdmmis.edu.ph</title>
+  </head>
+  <body>
+    <header>
+
+      <li><a href="#"><div class="logo">
+        <img src="img/Cdm.png" alt="">
+      </div></a></li>
+
+      <input type="checkbox" id="menu-bar">
+      <label for="menu-bar"><i class="fa-solid fa-bars"></i></label>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT <i class="fa-solid fa-caret-down"></i></a>
+              <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">HISTORY</a></li>
+                <li><a href="#">PROGRAMS</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ADMISSIONS</i></a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      
+    </header>
+
+    <div class="content" id="home">
+      <div class="contentBody">
+        <h3>Welcome to</h3>
+        <h1>COLEGIO DE <br> MONTALBAN</h1>
+        <h4>Where Knowledge Meets Opportunity, <br> Unlock Your Potential with Us!</h4>
+        <div class="button">
+          <button>Enroll Now!</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col-1">
+          <div class="title">
+            <h1>ABOUT US</h1>
+          </div>
+          <div class="body">
+            <p>Colegio de Montalban is an institution of higher learning geared towards uplifting the Montalbeños from poverty and ignorance to highly skilled professionals ready to face with competitiveness in the fast changing world. It is the dream of every CdMian to excel and be competent in every endeavor he undertakes imbibed with character and values that will make him a well-rounded citizen and more adaptable to the competitive world.</p>
+          </div>
+
+          <div class="learn">
+             <a href="about.html">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-2">
+          <img src="img/Cdm.png" alt="">
+        </div>
+      </div>
+        
+    </section>
+
+    <section class="courses">
+      <div class="courseTitle">
+        <h1>PROGRAMS OFFERED: CHED RECOGNIZED(LUC)</h1>
+      <div class="column">
+        <div class="column1">
+          <li><a href="course.html"><img src="img/ICS.png" alt=""></a></li>
+          <h2>INSTITURE OF COMPUTER STUDIES (ICS)</h2>
+        </div>
+        <div class="column2">
+          <li><a href="course.html"><img src="img/new logo (1).png" alt=""></a></li>
+          <h2>INSTITURE OF TEACHER EDUCATION (ITE)</h2>
+        </div>
+        <div class="column3">
+          <li><a href="course.html"><img src="img/IBE.png" alt=""></a></li>
+          <h2>INSTITURE OF BUSINESS AND ENTREPRENEURSHIP (IBE)</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contactbody">
+        <h1>CONTACT US</h1>
+        <p>Email: colegiodemontalban.official@gmail.com</p>
+        <p>Address: Kasiglahan Village San Jose,<br> Rodriguez Rizal ,Philippines</p>
+        <p>Phone: 0282968667 / 0283959731</p>
+        <div class="links">
+          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+
+      </div>
+      <form id="myForm">
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="input-group">
+          <label for="number">Phone No.</label>
+          <input type="text" id="number" required>
+        </div>
+        <div class="input-group">
+          <label for="name">Message</label>
+          <textarea id="msg" rows="10"></textarea>
+        </div>
+        <div class="btn">
+          <button class="btn" type="submit" id="myBtn" onclick="myFunction()">SUBMIT</button>
+        </div>
+      </form>
+      
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <h1>&copy; 2024 CDM|Alrights reserved.</h1>
+          <h2>&copy; made with love by <b>BTLED-2B</b></h2>
+        </div>
+    </footer>
+
+  </body>
+</html>
